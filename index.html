@@ -5,14 +5,16 @@
     <title>Linked Teen</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script
-  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script
-  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-<</script>
-  </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  @media (max-width: 600px) {
+   .carousel-caption {
+     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+   }
+  </style>
+</head>
 <body>
 
   <div id="myCarousel" class="carousle slide" data-ride="carousel">
@@ -26,15 +28,27 @@
   <!--Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="la.jpg" alt="1st picture description" width="1200" height"700">
+        <div class="carousel-caption">
+          <h3> First Picture Caption </h3>
+          <p> Quote or description </p>
+        </div>
       </div>
 
       <div class="item">
-        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+        <img src="chicago.jpg" alt="2nd picture decription" width="1200" height"700">
+        <div class="carousel-caption">
+          <h3> Second Picture Caption </h3>
+          <p> Quote or description </p>
+        </div>
       </div>
 
       <div class="item">
-        <img src="ny.jpg" alt="New york" style="width:100%;">
+        <img src="ny.jpg" alt="3rd picture description" width="1200" height"700">
+        <div class="carousel-caption">
+          <h3> Third Picture Caption </h3>
+          <p> Quote or description </p>
+        </div>
       </div>
     </div>
 
