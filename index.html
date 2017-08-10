@@ -20,7 +20,6 @@
    }
   </style>
 </head>
-<head>
 <body>
   <center>
     <div id ="Home">
@@ -31,14 +30,19 @@
   </center>
     </div>
 
-
+    <div class="container-fluid">
      <div id="myCarousel" class="carousle slide" data-ride="carousel">
+
+
+      <!-- Indicators -->
        <ol class="carousel-indicators">
          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
          <li data-target="#myCarousel" data-slide-to="1"></li>
          <li data-target="#myCarousel" data-slide-to="2"></li>
      </ol>
-    <div class="container-fluid">
+
+
+      <!-- Wrapper for slides -->
      <div class="carousel-inner">
          <div class="item active">
            <img src="GWC_pic.jpg" alt="1st picture description" width="960" height"700">
@@ -49,7 +53,7 @@
          </div>
 
          <div class="item">
-           <img src="group_GWC.JPG" alt="2nd picture decription">
+           <img src="group_GWC.jpg" alt="2nd picture decription" >
            <div class="carousel-caption">
              <h3> Second Picture Caption </h3>
              <p> Quote or description </p>
@@ -57,7 +61,7 @@
          </div>
 
          <div class="item">
-           <img src="learning_GWC.JPG" alt="3rd picture description">
+           <img src="learning_GWC.jpg" alt="3rd picture description">
            <div class="carousel-caption">
              <h3> Third Picture Caption </h3>
              <p> Quote or description </p>
@@ -108,19 +112,22 @@
       h2 {color: black; text-align:center; font-size:35px; font-family:"Fjalla One", fjalla one;}
       p {color: black; text-align:center; font-size:25px; font-family: "Fjalla One", fjalla one;}
     </style>
+</head>
 
 <body>
   <center>
-    <div class=".container-fluid">
-      <img src="All_Hexagons.PNG" alt="" usemap="#hexagons" style="center" />
-      <map name="hexagons" id="hexagons">
-        <area alt="" title="Internships/Jobs" href="Internships_Jobs.html" shape="poly" coords="286,405,448,484,447,684,285,766,123,683,123,482" />
-        <area alt="" title="College" href="College.html" shape="poly" coords="467,94,628,177,628,380,466,461,306,382,304,175" />
-        <area alt="" title="Community Service" href="Community_Service.html" shape="poly" coords="656,764,819,684,821,481,656,400,492,480,493,660,493,680" />
-        <area alt="" title="Events" href="Events.html" shape="poly" coords="840,103,1001,184,1001,389,840,469,677,374,677,184" />
-        <area alt="" title="Contact Us" href="Contact_Us.html" shape="poly" coords="1027,402,1187,494,1189,695,1030,775,865,681,867,498" />
-        <area alt="" title="About Us" href="About_Us.html" shape="poly" coords="1213,90,1373,175,1374,380,1211,464,1049,383,1049,172" />
-      </map>
+    <div class="container-fluid">
+      <div class="row">
+        <img src="All_Hexagons.PNG" alt="" usemap="#hexagons" style="center" />
+        <map name="hexagons" id="hexagons">
+          <area alt="" title="Internships/Jobs" href="Internships_Jobs.html" shape="poly" coords="286,405,448,484,447,684,285,766,123,683,123,482" />
+          <area alt="" title="College" href="College.html" shape="poly" coords="467,94,628,177,628,380,466,461,306,382,304,175" />
+          <area alt="" title="Community Service" href="Community_Service.html" shape="poly" coords="656,764,819,684,821,481,656,400,492,480,493,660,493,680" />
+          <area alt="" title="Events" href="Events.html" shape="poly" coords="840,103,1001,184,1001,389,840,469,677,374,677,184" />
+          <area alt="" title="Contact Us" href="Contact_Us.html" shape="poly" coords="1027,402,1187,494,1189,695,1030,775,865,681,867,498" />
+          <area alt="" title="About Us" href="About_Us.html" shape="poly" coords="1213,90,1373,175,1374,380,1211,464,1049,383,1049,172" />
+          </map>
+        </div>
     </div>
   </center>
 </body>
@@ -151,5 +158,4 @@
 
   <a href="/django_code/linked_teen_site.html">django code</a>
 
-</head>
 </html>
