@@ -13,30 +13,19 @@
    .carousel-caption {
      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
    }
-   <div id ="Logo">
-     <img src="CSS.png" alt="" usemap="#Logo" style="center" />
-     <map name="Logo" id="Logo">
-         <area alt="" title="Logo" href="index.html" shape="poly" coords="489,160,489,56,53,66,47,162" />
-     </map>
-   </div>
-
   </style>
 </head>
 <body>
-
-    <!-- Code for photo carousel -->
      <div id="myCarousel" class="carousle slide" data-ride="carousel">
-       <!-- Indicators -->
        <ol class="carousel-indicators">
          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
          <li data-target="#myCarousel" data-slide-to="1"></li>
          <li data-target="#myCarousel" data-slide-to="2"></li>
      </ol>
 
-     <!-- Wrapper for slides -->
        <div class="carousel-inner">
          <div class="item active">
-           <img src="GWC_pic.jpg" alt="1st picture description" width="1200" height"700">
+           <img src="GWC_pic.jpg" alt="1st picture description" width="1800" height"700">
            <div class="carousel-caption">
              <h3> First Picture Caption </h3>
              <p> Quote or description </p>
@@ -59,7 +48,7 @@
            </div>
          </div>
       </div>
-       <!-- Left and right controls -->
+
        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
          <span class="glyphicon glyphicon-chevron-left"></span>
          <span class="sr-only">Previous</span>
@@ -77,41 +66,6 @@
     <style>
       body {font-family: "Fjalla One", fjalla one;}
 
-      /* Style the tab */
-      div.tab {
-          overflow: hidden;
-          border: 1px solid #ccc;
-          background-color: white;
-      }
-      div.tab button {
-          background-color: inherit;
-          float: center;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          padding: 14px 16px;
-          transition: 0.3s;
-          font-size: 23px;
-      }
-      /* Change background color of buttons on hover */
-      div.tab button:hover {
-          background-color: #ddd;
-      }
-      /* Create an active/current tablink class */
-      div.tab button.active {
-          background-color: #ccc;
-      }
-      /* Style the tab content */
-      .tabcontent {
-          display: none;
-          padding: 6px 12px;
-          border: 1px solid #ccc;
-          border-top: none;
-      }
-
-      .tabcontent {
-    -webkit-animation: fadeEffect 1s;   animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
 
 @-webkit-keyframes fadeEffect {
     from {opacity: 0;}
@@ -125,20 +79,27 @@
 
   </style>
 
-
+<h1>
+<div id ="Logo">
+  <img src="CSS.png" alt="" usemap="#Logo" style="center" />
+  <map name="Logo" id="Logo">
+      <area alt="" title="Logo" href="index.html" shape="poly" coords="489,160,489,56,53,66,47,162" />
+  </map>
+</div>
+</h1>
 </body>
   <head>
 
-  /* <style>
+    <style>
 
       body {background-color: White;}
       h1 {color: maroon; text-align:center; font-size:45px; font-family:"Fjalla One", fjalla one;}
       h2 {color: black; text-align:center; font-size:35px; font-family:"Fjalla One", fjalla one;}
       p {color: black; text-align:center; font-size:25px; font-family: "Fjalla One", fjalla one;}
-    </style> *\
+    </style>
 
-    /*<div id="hexagons">*/
-      <img src="All_Hexagons.png" alt="" usemap="#hexagons" />
+  <div id="hexagons">
+      <img src="All_Hexagons.PNG" alt="" usemap="#hexagons" style="center" />
       <map name="Map" id="Map">
         <area alt="" title="Internships/Jobs" href="Internships_Jobs.html" shape="poly" coords="284,400,445,484,447,683,286,766,123,680,124,484" />
         <area alt="" title="College" href="College.html" shape="poly" coords="464,88,626,172,627,376,467,458,305,374,306,173" />
@@ -147,7 +108,7 @@
         <area alt="" title="Contact Us" href="Contact_Us.html" shape="poly" coords="1027,402,1187,494,1189,695,1030,775,865,681,867,498" />
         <area alt="" title="About Us" href="About_Us.html" shape="poly" coords="1213,90,1373,175,1374,380,1211,464,1049,383,1049,172" />
       </map>
-
+  </div>
 
   <script>
     function openTab(evt, TabName) {
