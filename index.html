@@ -11,7 +11,8 @@
   <style>
   @media (max-width: 600px) {
    .carousel-caption {
-     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+     display: none;
+     <!-- Hide the carousel text when the screen is less than 600 pixels wide -->
    }
    .carousel-inner img {
      width: 100%; /* set width to 100% */
@@ -102,36 +103,36 @@
       p {color: black; text-align:center; font-size:25px; font-family: "Fjalla One", fjalla one;}
     </style>
 
-  <div id="hexagons">
+<body>
       <img src="All_Hexagons.PNG" alt="" usemap="#hexagons" style="center" />
-      <map name="Map" id="Map">
-        <area alt="" title="Internships/Jobs" href="Internships_Jobs.html" shape="poly" coords="284,400,445,484,447,683,286,766,123,680,124,484" />
-        <area alt="" title="College" href="College.html" shape="poly" coords="464,88,626,172,627,376,467,458,305,374,306,173" />
+      <map name="hexagons" id="hexagons">
+        <area alt="" title="Internships/Jobs" href="Internships_Jobs.html" shape="poly" coords="286,405,448,484,447,684,285,766,123,683,123,482" />
+        <area alt="" title="College" href="College.html" shape="poly" coords="467,94,628,177,628,380,466,461,306,382,304,175" />
         <area alt="" title="Community Service" href="Community_Service.html" shape="poly" coords="656,764,819,684,821,481,656,400,492,480,493,660,493,680" />
         <area alt="" title="Events" href="Events.html" shape="poly" coords="840,103,1001,184,1001,389,840,469,677,374,677,184" />
         <area alt="" title="Contact Us" href="Contact_Us.html" shape="poly" coords="1027,402,1187,494,1189,695,1030,775,865,681,867,498" />
         <area alt="" title="About Us" href="About_Us.html" shape="poly" coords="1213,90,1373,175,1374,380,1211,464,1049,383,1049,172" />
       </map>
-  </div>
+</body>
 
   <script>
     function openTab(evt, TabName) {
-    // Declare all variables
+    <!-- Declare all variables-->
     var i, tabcontent, tablinks;
 
-    // Get all elements with class="tabcontent" and hide them
+    <!-- Get all elements with class="tabcontent" and hide them -->
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
 
-    // Get all elements with class="tablinks" and remove the class "active"
+    <!-- Get all elements with class="tablinks" and remove the class "active" -->
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
 
-    // Show the current tab, and add an "active" class to the button that opened the tab
+    <!-- Show the current tab, and add an "active" class to the button that opened the tab -->
     document.getElementById(TabName).style.display = "block";
     evt.currentTarget.className += " active";
     }
